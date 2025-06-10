@@ -5,17 +5,7 @@
 - [Real World Examples](#real-world-examples)
 - [Structure](#structure)
 - [Implementation in Java](#implementation-in-java)
-    - [Eager Initialization](#eager-initialization)
-    - [Static Block Initialization](#static-block-initialization)
-    - [Lazy Initialization](#lazy-initialization)
-    - [Thread Safe Singleton](#thread-safe-singleton)
-    - [Bill Pugh Singleton](#bill-pugh-singleton)
-    - [Enum Singleton](#enum-singleton)
 - [Breaking Singleton](#breaking-singleton)
-    - [Serialization](#serialization)
-    - [Cloning](#cloning)
-    - [Reflection](#reflection)
-    - [Multithreading](#multithreading)
 - [Advantages](#advantages)
 - [Disadvantages](#disadvantages)
 - [Relationship with other patterns](#relationship-with-other-patterns)
@@ -45,43 +35,29 @@ The Singleton pattern solves two problems at the same time, violating the Single
 
 - It is used in core Java classes like **`java.lang.Runtime`** and **`java.awt.Desktop`**
 
-## Structure
-<div align="center">
-  <img src="/static/images/design-patterns/singleton/structure.png" alt="Singleton Pattern" width="50%" height="50%" />
-Source: [Refactoring Guru](https://refactoring.guru/images/patterns/diagrams/singleton/structure-en-indexed-2x.png)
-</div>
+
 ## Implementation in Java
 
-### Eager Initialization
 [Eager Singleton](EagerSingleton.java)
 
-### Static Block Initialization
 [Static Block Singleton](StaticBlockSingleton.java)
 
-### Lazy Initialization
 [Lazy Singleton](LazySingleton.java)
 
-### Thread Safe Singleton
-[Thread Safe Singleton](ThreadSafeSingleton.java)
+[Thread Safe Singleton](MultiThreadSingleton.java)
 
-### Bill Pugh Singleton
 [Bill Pugh Singleton](BillPughSingleton.java)
 
-### Enum Singleton
 [Enum Singleton](EnumSingleton.java)
 
 ## Breaking Singleton
 
-### Serialization
 [Serialization](violation/Serialization.java)
 
-### Cloning
 [Cloning](violation/Cloning.java)
 
-### Reflection
 [Reflection](violation/Reflection.java)
 
-### Multithreading
 [Multithreading](violation/MultiThread.java)
 
 ## Advantages
@@ -108,3 +84,4 @@ Source: [Refactoring Guru](https://refactoring.guru/images/patterns/diagrams/sin
 
 - [Refactoring Guru](https://refactoring.guru/design-patterns/singleton)
 - [Digital Ocean](https://www.digitalocean.com/community/tutorials/java-singleton-design-pattern-best-practices-examples)
+- [Daily Code Buffer](https://youtu.be/ASI0TfcY_7U?si=UEDTjKJdGbjb2HKE)
