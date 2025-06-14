@@ -1,3 +1,5 @@
+# Design Patterns
+
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -29,8 +31,8 @@ and divided into three groups.
 
 **Creational patterns** provide object creation mechanisms that increase flexibility and reuse of existing code.
 
-- [Singleton](creational-design-patterns/singleton/java/src/README.md)
-- Factory Method
+- [Singleton](creational-design-patterns/singleton/src/README.md)
+- [Factory Method](creational-design-patterns/factory-method/README.md)
 - Abstract Factory
 - Builder
 - Prototype

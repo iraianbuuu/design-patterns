@@ -1,11 +1,14 @@
+# Singleton
+
 ## Table of Contents
 
 - [Introduction](#introduction)
 - [Problem](#problem)
 - [Real World Examples](#real-world-examples)
-- [Structure](#structure)
-- [Implementation in Java](#implementation-in-java)
+- [Implementation](#implementation)
 - [Breaking Singleton](#breaking-singleton)
+- [Best Singleton Approach Based on Use Case](#best-singleton-approach-based-on-use-case)
+- [Singleton Pattern Comparison Table](#singleton-pattern-comparison-table)
 - [Advantages](#advantages)
 - [Disadvantages](#disadvantages)
 - [Relationship with other patterns](#relationship-with-other-patterns)
@@ -13,7 +16,7 @@
 
 ## Introduction
 
-Singleton is a creational design pattern that lets you ensure that a class has only one instance, while providing a global access point to this instance.
+**Singleton** is a creational design pattern that lets you ensure that a class has only one instance, while providing a global access point to this instance.
 
 ## Problem
 
@@ -24,19 +27,18 @@ The Singleton pattern solves two problems at the same time, violating the Single
 
 ## Real World Examples
 
-1. Passport 
+1. Passport
 2. Government
 3. Logger
 4. Database connection pool
 5. Caching Mechanism
 
-- It is also used in other design patterns like 
+- It is also used in other design patterns like
 **Abstract Factory, Builder, Prototype, Facade**, etc.
 
 - It is used in core Java classes like **`java.lang.Runtime`** and **`java.awt.Desktop`**
 
-
-## Implementation in Java
+## Implementation
 
 [Eager Singleton](EagerSingleton.java)
 
@@ -59,6 +61,33 @@ The Singleton pattern solves two problems at the same time, violating the Single
 [Reflection](violation/Reflection.java)
 
 [Multithreading](violation/MultiThread.java)
+
+## Best Singleton Approach Based on Use Case
+
+| **Use Case**                                    | **Recommended Approach**            | **Reason**                                      |
+| ----------------------------------------------- | ----------------------------------- | ----------------------------------------------- |
+| Lightweight Singleton (Logger, ConfigManager)   | `enum Singleton`                    | Simple, thread-safe, and secure                 |
+| Heavyweight object (Database Connection, Cache) | Double-Checked Locking (`volatile`) | Lazy loading with good performance              |
+| Lazy + clean implementation                     | Bill Pugh Singleton                 | JVM-based lazy loading, no sync/volatile needed |
+| Requires parameters or dynamic config           | Classic Singleton with custom init  | `enum` doesn't allow passing arguments          |
+| Needs inheritance                               | Class-based Singleton (not `enum`)  | `enum` can't extend other classes               |
+| High security (avoid reflection/serialization)  | `enum Singleton`                    | Fully immune to reflection and deserialization  |
+
+---
+
+## Singleton Pattern Comparison Table
+
+| Feature                    | `enum` Singleton | Double-Checked Locking        | Bill Pugh Singleton           | Simple `synchronized` |
+| -------------------------- | ---------------- | ----------------------------- | ----------------------------- | --------------------- |
+| Thread-safe                | ✅ Yes           | ✅ Yes                        | ✅ Yes                        | ✅ Yes                |
+| Lazy Initialization        | ❌ No            | ✅ Yes                        | ✅ Yes                        | ✅ Yes                |
+| Prevents Reflection Attack | ✅ Yes           | ❌ No                         | ❌ No (needs guard)           | ❌ No                 |
+| Serialization Safe         | ✅ Yes           | ❌ No (needs `readResolve()`) | ❌ No (needs `readResolve()`) | ❌ No                 |
+| Uses `volatile`            | ❌ No            | ✅ Yes                        | ❌ No                         | ❌ No                 |
+| Uses `synchronized`        | ❌ No            | ✅ Yes (conditionally)        | ❌ No                         | ✅ Yes                |
+| Easy to Implement          | ✅ Easiest       | ❌ Medium                     | ✅ Clean & Simple             | ✅ Simple             |
+| Good for Heavy Objects     | ❌ Not Ideal     | ✅ Yes                        | ✅ Yes                        | ❌ Less efficient     |
+| Constructor Arguments      | ❌ Not possible  | ✅ Yes                        | ✅ Yes                        | ✅ Yes                |
 
 ## Advantages
 
