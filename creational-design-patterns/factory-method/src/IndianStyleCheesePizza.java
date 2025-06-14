@@ -5,6 +5,7 @@ public class IndianStyleCheesePizza extends Pizza {
     public IndianStyleCheesePizza() {
         name = "Indian Style Cheese Pizza";
         dough = "Indian Style Naan Bread";
+        cheese = "Mozzarella Cheese";
         sauce = "Spicy Tikka Masala Sauce";     
         toppings.add("Paneer Cheese");
         toppings.add("Coriander");

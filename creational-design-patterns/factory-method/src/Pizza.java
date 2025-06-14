@@ -1,11 +1,11 @@
 import java.util.ArrayList;
-
 /**
  * Product - Abstract Pizza class
  */
 public abstract class Pizza {
     String name;
     String dough;
+    String cheese;
     String sauce;
     ArrayList<String> toppings = new ArrayList<String>();
 

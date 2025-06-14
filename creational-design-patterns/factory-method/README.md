@@ -75,5 +75,5 @@ Factory Method is inheritance-based, making it simpler to implement but less fle
 
 ## References
 
-- [Refactoring Guru](https://refactoring.guru/design-patterns/singleton)
+- [Refactoring Guru](https://refactoring.guru/design-patterns/factory-method)
 - [Head First Design Patterns](https://www.oreilly.com/library/view/head-first-design/0596007124/)
