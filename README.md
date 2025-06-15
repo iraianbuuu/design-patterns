@@ -31,10 +31,10 @@ and divided into three groups.
 
 **Creational patterns** provide object creation mechanisms that increase flexibility and reuse of existing code.
 
-- [Singleton](creational-design-patterns/singleton/src/README.md)
+- [Singleton](creational-design-patterns/singleton/README.md)
 - [Factory Method](creational-design-patterns/factory-method/README.md)
-- Abstract Factory
-- Builder
+- [Abstract Factory](creational-design-patterns/abstract-factory/README.md)
+- [Builder](creational-design-patterns/builder/README.md)
 - Prototype
 
 ## Structural Patterns
