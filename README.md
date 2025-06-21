@@ -35,13 +35,13 @@ and divided into three groups.
 - [Factory Method](creational-design-patterns/factory-method/README.md)
 - [Abstract Factory](creational-design-patterns/abstract-factory/README.md)
 - [Builder](creational-design-patterns/builder/README.md)
-- Prototype
+- [Prototype](creational-design-patterns/prototype/README.md)
 
 ## Structural Patterns
 
 **Structural patterns** explain how to assemble objects and classes into larger structures while keeping these structures flexible and efficient.
 
-- Adapter
+- [Adapter](structural-design-patterns/adapter/README.md)
 - Bridge
 - Composite
 - Decorator
