@@ -40,17 +40,17 @@ The Singleton pattern solves two problems at the same time, violating the Single
 
 ## Implementation
 
-[Eager Singleton](EagerSingleton.java)
+[Eager Singleton](src/EagerSingleton.java)
 
-[Static Block Singleton](StaticBlockSingleton.java)
+[Static Block Singleton](src/StaticBlockSingleton.java)
 
-[Lazy Singleton](LazySingleton.java)
+[Lazy Singleton](src/LazySingleton.java)
 
-[Thread Safe Singleton](MultiThreadSingleton.java)
+[Thread Safe Singleton](src/MultiThreadSingleton.java)
 
-[Bill Pugh Singleton](BillPughSingleton.java)
+[Bill Pugh Singleton](src/BillPughSingleton.java)
 
-[Enum Singleton](EnumSingleton.java)
+[Enum Singleton](src/EnumSingleton.java)
 
 ## Breaking Singleton
 
