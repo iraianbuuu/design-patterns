@@ -42,8 +42,8 @@ and divided into three groups.
 **Structural patterns** explain how to assemble objects and classes into larger structures while keeping these structures flexible and efficient.
 
 - [Adapter](structural-design-patterns/adapter/README.md)
-- Bridge
-- Composite
+- [Bridge](structural-design-patterns/bridge/README.md)
+- [Composite](structural-design-patterns/composite/README.md)
 - Decorator
 - Facade
 - Flyweight

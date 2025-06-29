@@ -1,5 +1,17 @@
 # Adapter
 
+## Table of contents
+
+- [Introduction](#introduction)
+- [Problem](#problem)
+- [Real life examples](#real-life-examples)
+- [Structure](#structure)
+- [Implementation](#implementation)
+- [Advantages](#advantages)
+- [Disadvantages](#disadvantages)
+- [Relationship with other patterns](#relationship-with-other-patterns)
+- [References](#references)
+
 ## Introduction
 
 **Adapter** is a structural design pattern that allows objects with incompatible interfaces to collaborate. It is also known as **Wrapper**.

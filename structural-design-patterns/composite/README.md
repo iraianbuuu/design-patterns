@@ -1,5 +1,17 @@
 # Composite
 
+## Table of contents
+
+- [Introduction](#introduction)
+- [Problem](#problem)
+- [Real life examples](#real-life-examples)
+- [Structure](#structure)
+- [Implementation](#implementation)
+- [Advantages](#advantages)
+- [Disadvantages](#disadvantages)
+- [Relationship with other patterns](#relationship-with-other-patterns)
+- [References](#references)
+
 ## Introduction
 
 **Composite** is a structural design pattern that allows you to compose objects into tree structures and then work with these structures as if they were individual objects.

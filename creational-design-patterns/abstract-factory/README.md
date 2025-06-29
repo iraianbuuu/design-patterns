@@ -30,8 +30,6 @@
 - **Concrete Product** : Implements the Abstract Product interface.
 - **Client** : Uses Abstract Factory and Abstract Product interfaces to create a product object.
 
-![Structure](uml-diagram.png)
-
 ## Implementation
 
 [Client : PizzaStore](src/store/PizzaStore.java)

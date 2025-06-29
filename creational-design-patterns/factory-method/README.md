@@ -47,8 +47,6 @@ Each time when we create an object, we need to specify which class to instantiat
 
 [ConcreteCreator : JapanesePizzaStore](src/JapanesePizzaStore.java)
 
-![UML Diagram](uml-diagram.png)
-
 ## Advantages
 
 - Avoid tight coupling between the client and the concrete product.
