@@ -18,6 +18,8 @@
 
 ## Problem
 
+For example, let's consider a game that has different levels, each with its own set of enemies, weapons, and power-ups. Using the Abstract Factory pattern, you can define an abstract factory interface that creates these objects, and then create concrete implementations of the interface for each level. This allows you to switch between levels easily without having to worry about the specific implementation details of each object.
+
 ## Real World Examples
 
 - It is used in core Java classes like **`java.util.DocumentBuilderFactory`** and **`java.util.TransformerFactory`**

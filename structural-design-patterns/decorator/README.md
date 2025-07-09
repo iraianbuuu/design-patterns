@@ -61,4 +61,4 @@ It's used in Java core libraries:
 
 ## References
 
--[Refactoring.Guru](https://refactoring.guru/design-patterns/decorator)
+-[Refactoring Guru](https://refactoring.guru/design-patterns/decorator)

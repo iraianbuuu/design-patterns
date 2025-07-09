@@ -44,8 +44,8 @@ and divided into three groups.
 - [Adapter](structural-design-patterns/adapter/README.md)
 - [Bridge](structural-design-patterns/bridge/README.md)
 - [Composite](structural-design-patterns/composite/README.md)
-- Decorator
-- Facade
+- [Decorator](structural-design-patterns/decorator/README.md)
+- [Facade](structural-design-patterns/facade/README.md)
 - Flyweight
 - Proxy
 
@@ -60,6 +60,9 @@ and divided into three groups.
 - Memento
 - Observer
 - State
+- Strategy
+- Template Method
+- Visitor
 
 ## References
 

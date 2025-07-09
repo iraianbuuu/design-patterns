@@ -36,11 +36,11 @@ If we are working on a webpage which communicates with multiple services. We wil
 
 ## Implementation
 
-[Client](src/Main.java)
-[Facade](src/BookingFacade.java)
-[Subsystem](src/TicketSystem.java)
-[Subsystem](src/PaymentSystem.java)
-[Subsystem](src/NotificationSystem.java)
+- [Client](src/Main.java)
+- [Facade](src/BookingFacade.java)
+- [Subsystem](src/TicketSystem.java)
+- [Subsystem](src/PaymentSystem.java)
+- [Subsystem](src/NotificationSystem.java)
 
 ## Advantages
 
@@ -54,4 +54,4 @@ If we are working on a webpage which communicates with multiple services. We wil
 
 ## References
 
-[Facade Pattern](https://refactoring.guru/design-patterns/facade)
+- [Refactoring Guru](https://refactoring.guru/design-patterns/facade)
