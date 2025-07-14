@@ -46,8 +46,8 @@ and divided into three groups.
 - [Composite](structural-design-patterns/composite/README.md)
 - [Decorator](structural-design-patterns/decorator/README.md)
 - [Facade](structural-design-patterns/facade/README.md)
-- Flyweight
-- Proxy
+- [Flyweight](structural-design-patterns/flyweight/README.md)
+- [Proxy](structural-design-patterns/proxy/README.md)
 
 ## Behavioral Patterns
 
