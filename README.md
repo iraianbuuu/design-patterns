@@ -53,7 +53,7 @@ and divided into three groups.
 
 **Behavioral patterns** take care of effective communication and the assignment of responsibilities between objects.
 
-- Chain of Responsibility
+- [Chain of Responsibility](behavioral-design-patterns/chain-of-responsibility/README.md)
 - Command
 - Iterator
 - Mediator
