@@ -1,21 +1,13 @@
 package walker;
 
-import songs.Songs;
+import song.Song;
 
-public class Walker {
-    public boolean hasNext() {
-        return true;
-    }
+public interface Walker {
+    public boolean hasNext();
 
-    public Songs next() {
-        return new Songs();
-    }
+    public Song next();
 
-    public boolean hasPrevious() {
-        return true;
-    }
+    public boolean hasPrevious();
 
-    public Songs previous() {
-        return new Songs();
-    }
+    public Song previous();
 }
