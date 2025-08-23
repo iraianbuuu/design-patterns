@@ -40,27 +40,27 @@ The Singleton pattern solves two problems at the same time, violating the Single
 
 ## Implementation
 
-[Eager Singleton](src/EagerSingleton.java)
+- [Eager Singleton](src/EagerSingleton.java)
 
-[Static Block Singleton](src/StaticBlockSingleton.java)
+- [Static Block Singleton](src/StaticBlockSingleton.java)
 
-[Lazy Singleton](src/LazySingleton.java)
+- [Lazy Singleton](src/LazySingleton.java)
 
-[Thread Safe Singleton](src/MultiThreadSingleton.java)
+- [Thread Safe Singleton](src/MultiThreadSingleton.java)
 
-[Bill Pugh Singleton](src/BillPughSingleton.java)
+- [Bill Pugh Singleton](src/BillPughSingleton.java)
 
-[Enum Singleton](src/EnumSingleton.java)
+- [Enum Singleton](src/EnumSingleton.java)
 
 ## Breaking Singleton
 
-[Serialization](violation/Serialization.java)
+- [Serialization](violation/Serialization.java)
 
-[Cloning](violation/Cloning.java)
+- [Cloning](violation/Cloning.java)
 
-[Reflection](violation/Reflection.java)
+- [Reflection](violation/Reflection.java)
 
-[Multithreading](violation/MultiThread.java)
+- [Multithreading](violation/MultiThread.java)
 
 ## Best Singleton Approach Based on Use Case
 

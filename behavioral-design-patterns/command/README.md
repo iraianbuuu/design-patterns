@@ -34,12 +34,12 @@ It is used in Java Core Libraries like `java.lang.Runnable` and `javax.swing.Act
 
 ## Implementation
 
-[Client](src/Main.java)
-[Command](src/Command.java)
-[ConcreteCommand](src/SaveCommand.java)
-[ConcreteCommand](src/OpenCommand.java)
-[Invoker](src/TextFileOperationExecutor.java)
-[Receiver](src/TextFile.java)
+- [Client](src/Main.java)
+- [Command](src/Command.java)
+- [ConcreteCommand](src/SaveCommand.java)
+- [ConcreteCommand](src/OpenCommand.java)
+- [Invoker](src/TextFileOperationExecutor.java)
+- [Receiver](src/TextFile.java)
 
 ## Advantages
 

@@ -33,11 +33,11 @@ It is used in Java Core libraries like :
 
 ## Implementation
 
--[Client](src/Main.java)
--[Mediator](src/ChatMediator.java)
--[ConcreteMediator](src/ChatMediatorImpl.java)
--[Component](src/User.java)
--[ConcreteComponent](src/UserImpl.java)
+- [Client](src/Main.java)
+- [Mediator](src/ChatMediator.java)
+- [ConcreteMediator](src/ChatMediatorImpl.java)
+- [Component](src/User.java)
+- [ConcreteComponent](src/UserImpl.java)
 
 ## Advantages
 

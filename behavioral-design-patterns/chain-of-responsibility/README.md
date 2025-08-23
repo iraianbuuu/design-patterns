@@ -34,10 +34,10 @@ Imagine working in validating a form. You have a list of validators that you can
 
 ## Implementation
 
-[Client](src/Main.java)
-[Handler](src/PaymentHandler.java)
-[ConcreteHandler](src/BankPaymentHandler.java)
-[ConcreteHandler](src/CreditCardPaymentHandler.java)
+- [Client](src/Main.java)
+- [Handler](src/PaymentHandler.java)
+- [ConcreteHandler](src/BankPaymentHandler.java)
+- [ConcreteHandler](src/CreditCardPaymentHandler.java)
 
 ## Advantages
 

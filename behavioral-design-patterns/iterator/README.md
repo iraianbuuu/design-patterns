@@ -26,11 +26,11 @@ It is used in core Java libraries like `java.util.Iterator` and `java.util.Enume
 
 ## Implementation
 
-[Client](src/Main.java)
-[Iterator](src/walker/Walker.java)
-[ConcreteIterator](src/walker/SimpleOrderWalker.java)
-[Aggregate](src/song/Songs.java)
-[ConcreteAggregate](src/song/SimpleOrderSongs.java)
+- [Client](src/Main.java)
+- [Iterator](src/walker/Walker.java)
+- [ConcreteIterator](src/walker/SimpleOrderWalker.java)
+- [Aggregate](src/song/Songs.java)
+- [ConcreteAggregate](src/song/SimpleOrderSongs.java)
 
 ## Advantages
 

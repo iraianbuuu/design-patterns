@@ -33,19 +33,19 @@ Each time when we create an object, we need to specify which class to instantiat
 
 ## Implementation
 
-[Client](src/Main.java)
+- [Client](src/Main.java)
 
-[Product : Pizza](src/Pizza.java)
+- [Product : Pizza](src/Pizza.java)
 
-[ConcreteProduct : IndianStyleCheesePizza](src/IndianStyleCheesePizza.java)
+- [ConcreteProduct : IndianStyleCheesePizza](src/IndianStyleCheesePizza.java)
 
-[ConcreteProduct : JapaneseStyleCheesePizza](src/JapaneseStyleCheesePizza.java)
+- [ConcreteProduct : JapaneseStyleCheesePizza](src/JapaneseStyleCheesePizza.java)
 
-[Creator : PizzaStore](src/PizzaStore.java)
+- [Creator : PizzaStore](src/PizzaStore.java)
 
-[ConcreteCreator : IndianPizzaStore](src/IndianPizzaStore.java)
+- [ConcreteCreator : IndianPizzaStore](src/IndianPizzaStore.java)
 
-[ConcreteCreator : JapanesePizzaStore](src/JapanesePizzaStore.java)
+- [ConcreteCreator : JapanesePizzaStore](src/JapanesePizzaStore.java)
 
 ## Advantages
 

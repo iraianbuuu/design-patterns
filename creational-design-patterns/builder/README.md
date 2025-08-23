@@ -40,11 +40,11 @@ It is widely used in Java core libraries, such as `StringBuilder`, `StringBuffer
 
 ## Implementation
 
-[Builder](src/URLBuilder.java)
+- [Builder](src/URLBuilder.java)
 
-[Product](src/URL.java)
+- [Product](src/URL.java)
 
-[Director/Client](src/Main.java)
+- [Director/Client](src/Main.java)
 
 ## Advantages
 

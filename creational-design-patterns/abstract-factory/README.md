@@ -34,31 +34,31 @@ For example, let's consider a game that has different levels, each with its own 
 
 ## Implementation
 
-[Client : PizzaStore](src/store/PizzaStore.java)
+- [Client : PizzaStore](src/store/PizzaStore.java)
 
-[Abstract Factory : PizzaIngredientFactory](src/ingredients/factory/PizzaIngredientFactory.java)
+- [Abstract Factory : PizzaIngredientFactory](src/ingredients/factory/PizzaIngredientFactory.java)
 
-[Concrete Factory : IndianStyleIngredientFactory](src/ingredients/factory/IndianStyleIngredientFactory.java)
+- [Concrete Factory : IndianStyleIngredientFactory](src/ingredients/factory/IndianStyleIngredientFactory.java)
 
-[Concrete Factory : JapaneseStyleIngredientFactory](src/ingredients/factory/JapaneseStyleIngredientFactory.java)
+- [Concrete Factory : JapaneseStyleIngredientFactory](src/ingredients/factory/JapaneseStyleIngredientFactory.java)
 
-[Abstract Product : Cheese](src/ingredients/cheese/Cheese.java)
+- [Abstract Product : Cheese](src/ingredients/cheese/Cheese.java)
 
-[Abstract Product : Dough](src/ingredients/dough/Dough.java)
+- [Abstract Product : Dough](src/ingredients/dough/Dough.java)
 
-[Abstract Product : Sauce](src/ingredients/sauce/Sauce.java)
+- [Abstract Product : Sauce](src/ingredients/sauce/Sauce.java)
 
-[Concrete Product : MozzarellaCheese](src/ingredients/cheese/MozzarellaCheese.java)
+- [Concrete Product : MozzarellaCheese](src/ingredients/cheese/MozzarellaCheese.java)
 
-[Concrete Product : NaanDough](src/ingredients/dough/NaanDough.java)
+- [Concrete Product : NaanDough](src/ingredients/dough/NaanDough.java)
 
-[Concrete Product : TikkaMasalaSauce](src/ingredients/sauce/TikkaMasalaSauce.java)
+- [Concrete Product : TikkaMasalaSauce](src/ingredients/sauce/TikkaMasalaSauce.java)
 
-[Concrete Product : ParmesanCheese](src/ingredients/cheese/ParmesanCheese.java)
+- [Concrete Product : ParmesanCheese](src/ingredients/cheese/ParmesanCheese.java)
 
-[Concrete Product : MochiDough](src/ingredients/dough/MochiDough.java)
+- [Concrete Product : MochiDough](src/ingredients/dough/MochiDough.java)
 
-[Concrete Product : SoySauce](src/ingredients/sauce/SoySauce.java)
+- [Concrete Product : SoySauce](src/ingredients/sauce/SoySauce.java)
 
 ## Advantages
 

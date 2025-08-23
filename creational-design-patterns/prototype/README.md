@@ -19,11 +19,9 @@
 
 If we want to create a exact copy of an object, we create a new object of the same class. We go through all the fields of the original object and copy their values to the new object. The issue is some fields in the original object may be private and not visible.
 
-
 ## Real world Examples
 
-1. Cover Letters - No need to create cover letters for each organization from scratch. Instead, one cover letter 
-will be created.
+1. Cover Letters - No need to create cover letters for each organization from scratch. Instead, one cover letter will be created.
 
 2. Chess -  Using Prototype pattern, the board may be cloned, from the already existing board object.
 
