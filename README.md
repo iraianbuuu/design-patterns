@@ -14,7 +14,7 @@
 Design patterns are typical solutions to common problems
 in software design. Each pattern is like a blueprint
 that you can customize to solve a particular
-design problem in your code. The idea was picked up by four authors: Erich Gamma, John Vlissides, Ralph Johnson, and Richard Helm. In 1994, they published _Design Patterns: Elements of Reusable Object-Oriented Software_, in which they applied the concept of design patterns to programming.
+design problem in your code. The idea was picked up by four authors: Erich Gamma, John Vlissides, Ralph Johnson, and Richard Helm. In 1994, they published **Design Patterns: Elements of Reusable Object-Oriented Software**, in which they applied the concept of design patterns to programming.
 
 ## Classification of Design Patterns
 
@@ -55,14 +55,14 @@ and divided into three groups.
 
 - [Chain of Responsibility](behavioral-design-patterns/chain-of-responsibility/README.md)
 - [Command](behavioral-design-patterns/command/README.md)
-- Iterator
-- Mediator
-- Memento
-- Observer
-- State
-- Strategy
-- Template Method
-- Visitor
+- [Iterator](behavioral-design-patterns/iterator/README.md)
+- [Mediator](behavioral-design-patterns/mediator/README.md)
+- [Memento](behavioral-design-patterns/memento/README.md)
+- [Observer](behavioral-design-patterns/observer/README.md)
+- [State](behavioral-design-patterns/state/README.md)
+- [Strategy](behavioral-design-patterns/strategy/README.md)
+- [Template Method](behavioral-design-patterns/template-method/README.md)
+- [Visitor](behavioral-design-patterns/visitor/README.md)
 
 ## References
 
